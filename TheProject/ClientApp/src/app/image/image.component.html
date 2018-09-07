@@ -1,0 +1,7 @@
+{{ value }}
+
+<button (click)="changeMe()" >Promijeni me</button>
+
+<input class="upload" type="file"
+accept="image/jpg"
+(change)="uploadImage($event.target.files)">
